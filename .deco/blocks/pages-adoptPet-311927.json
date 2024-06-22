@@ -9,7 +9,7 @@
         "buttons": []
       },
       "logo": {
-        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10904/0284e27f-b0d2-40ad-a82c-5c6486c45c58"
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10904/c951547d-f0d4-4f77-92ac-3e9687b0b082"
       }
     },
     {
@@ -22,17 +22,47 @@
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "placement": "right",
+      "title": "Conheça nossos amigos",
+      "description": "Venha conhecer nossos amiguinhos!",
+      "tagline": "Contato",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10904/063e9e56-28d3-4a08-892c-e38d62afec59"
     },
     {
       "__resolveType": "site/sections/Footer.tsx",
       "links": [],
       "bottomLinks": [],
-      "social": [],
+      "social": [
+        {
+          "network": "Facebook",
+          "href": "https://facebook.com"
+        },
+        {
+          "network": "Instagram",
+          "href": "https://instagram.com/"
+        },
+        {
+          "network": "Linkedin",
+          "href": "https://linkedin.com/"
+        },
+        {
+          "network": "X - Twitter",
+          "href": "https://x.com/"
+        },
+        {
+          "network": "Youtube",
+          "href": "https://youtube.com"
+        }
+      ],
       "subscribe": {
         "title": "Se cadastre para receber notificações em seu e-mail.",
         "description": "Recebe e-mail de animais que precisam de ajuda, ajude-os a encontrar um novo lar.",
         "instructions": "<p></p>"
+      },
+      "copyright": "© 2024 - Equipe Teste.",
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10904/c951547d-f0d4-4f77-92ac-3e9687b0b082",
+        "alt": "Adote um animal"
       }
     }
   ],

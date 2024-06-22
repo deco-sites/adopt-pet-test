@@ -79,7 +79,7 @@ export default function Footer({
     },
   ],
   subscribe = {
-    title: "Subcribe",
+    title: "Subscribe",
     description:
       "Join our newsletter to stay up to date on features and releases.",
     instructions:
@@ -139,15 +139,15 @@ export default function Footer({
               <div class="flex gap-4">
                 <input
                   type="text"
-                  placeholder="Enter your email"
-                  class="w-full input input-bordered input-primary"
+                  placeholder="Digite seu e-mail"
+                  class="w-full input input-bordered input-primary text-primary"
                 />
                 <button
                   type="submit"
                   class="btn btn-outline font-normal"
                   aria-label="Subscribe"
                 >
-                  Subscribe
+                  Inscrever-se
                 </button>
               </div>
               <p
