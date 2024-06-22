@@ -1,6 +1,6 @@
 {
   "name": "adoptPet",
-  "path": "/adoptPet",
+  "path": "/",
   "sections": [
     {
       "__resolveType": "site/sections/Header.tsx",
@@ -8,16 +8,32 @@
         "links": [],
         "buttons": []
       },
-      "logo": {}
+      "logo": {
+        "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10904/0284e27f-b0d2-40ad-a82c-5c6486c45c58"
+      }
     },
     {
-      "__resolveType": "hero"
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p><strong>Adote um amiguinho!</strong></p>",
+      "description": "Existem muitos amiguinhos de 4 patas precisando de um novo lar, e você, se está aqui também parece estar precisando de um amiguinho, por que não juntar o útil ao agradável? Conheça nos amiguinhos e adote já!",
+      "placement": "left",
+      "cta": [],
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10904/aa07a628-0c5b-4bc7-a82d-9dbe2ab5a792"
     },
     {
-      "__resolveType": "Preview site/sections/ImageWithParagraph.tsx"
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "placement": "right"
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [],
+      "subscribe": {
+        "title": "Se cadastre para receber notificações em seu e-mail.",
+        "description": "Recebe e-mail de animais que precisam de ajuda, ajude-os a encontrar um novo lar.",
+        "instructions": "<p></p>"
+      }
     }
   ],
   "seo": {
