@@ -97,7 +97,7 @@
   },
   "/.deco/blocks/pages-adoptPet-311927.json": {
     "name": "Home",
-    "path": "/home",
+    "path": "/",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
