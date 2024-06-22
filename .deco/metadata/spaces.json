@@ -125,73 +125,7 @@
       "name": "Releases",
       "pinned": true,
       "icon": "rocket",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "releases::releases::rocket::releases::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-releases::releases::rocket::releases::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "releases::releases::rocket::releases::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "layout": [],
       "tabs": {
         "releases::releases::rocket::releases::%7B%7D": {
           "name": "releases",
@@ -248,115 +182,7 @@
       "name": "Themes",
       "pinned": true,
       "icon": "palette",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 33.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "themes::Theme%20Viewer::palette::Theme%20Viewer::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.33333333333333,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "themes::Theme%20Preview::palette::Theme%20Preview::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "layout": [],
       "tabs": {
         "themes::Theme%20Selector::palette::Theme%20Selector::%7B%7D": {
           "name": "Theme Selector",
@@ -398,73 +224,7 @@
       "name": "Redirects",
       "pinned": true,
       "icon": "redirect",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "redirects::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-redirects::List::list::List::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "redirects::List::list::List::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "layout": [],
       "tabs": {
         "redirects::List::list::List::%7B%7D": {
           "name": "List",
@@ -484,73 +244,7 @@
       "name": "Loaders",
       "pinned": true,
       "icon": "block",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "loaders::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-loaders::List::list::List::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "loaders::List::list::List::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "layout": [],
       "tabs": {
         "loaders::List::list::List::%7B%7D": {
           "name": "List",
@@ -888,7 +582,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -902,7 +596,6 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-adoptPet-311927.json::Properties::list::Properties::%7B%7D"
                     },
-                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -910,7 +603,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -924,7 +617,6 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-adoptPet-311927.json::Preview::world::Preview::%7B%7D"
                     },
-                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -946,11 +638,9 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
-          "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-adoptPet-311927.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-adoptPet-311927.json::Preview::world::Preview::%7B%7D": {
@@ -959,93 +649,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
-          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-adoptPet-311927.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
-    },
-    {
-      "id": "{\"oid\":\"50f5ffa448856d140262082b5f75029f7a5d6c60\",\"short\":\"50f5ffa\",\"commit\":{\"message\":\"Release staging environment with 2 changes made by Matheus Lucas\\n\",\"parent\":[\"ed9f321e90e1da2439bfda04f1a680edfaff06a7\"],\"tree\":\"fc46deeb1a80e29bb40652f5f009891e75a3f609\",\"author\":{\"name\":\"Matheus Lucas\",\"email\":\"matheus07lucas@gmail.com\",\"timestamp\":1719092802,\"timezoneOffset\":0},\"committer\":{\"name\":\"Matheus Lucas\",\"email\":\"matheus07lucas@gmail.com\",\"timestamp\":1719092802,\"timezoneOffset\":0}}}",
-      "name": "Release 50f5ffa",
-      "pinned": false,
-      "icon": "rocket",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%7B%22oid%22%3A%2250f5ffa448856d140262082b5f75029f7a5d6c60%22%2C%22short%22%3A%2250f5ffa%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%202%20changes%20made%20by%20Matheus%20Lucas%5Cn%22%2C%22parent%22%3A%5B%22ed9f321e90e1da2439bfda04f1a680edfaff06a7%22%5D%2C%22tree%22%3A%22fc46deeb1a80e29bb40652f5f009891e75a3f609%22%2C%22author%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2250f5ffa448856d140262082b5f75029f7a5d6c60%22%2C%22short%22%3A%2250f5ffa%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%202%20changes%20made%20by%20Matheus%20Lucas%5Cn%22%2C%22parent%22%3A%5B%22ed9f321e90e1da2439bfda04f1a680edfaff06a7%22%5D%2C%22tree%22%3A%22fc46deeb1a80e29bb40652f5f009891e75a3f609%22%2C%22author%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%7B%22oid%22%3A%2250f5ffa448856d140262082b5f75029f7a5d6c60%22%2C%22short%22%3A%2250f5ffa%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%202%20changes%20made%20by%20Matheus%20Lucas%5Cn%22%2C%22parent%22%3A%5B%22ed9f321e90e1da2439bfda04f1a680edfaff06a7%22%5D%2C%22tree%22%3A%22fc46deeb1a80e29bb40652f5f009891e75a3f609%22%2C%22author%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {
-        "%7B%22oid%22%3A%2250f5ffa448856d140262082b5f75029f7a5d6c60%22%2C%22short%22%3A%2250f5ffa%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%202%20changes%20made%20by%20Matheus%20Lucas%5Cn%22%2C%22parent%22%3A%5B%22ed9f321e90e1da2439bfda04f1a680edfaff06a7%22%5D%2C%22tree%22%3A%22fc46deeb1a80e29bb40652f5f009891e75a3f609%22%2C%22author%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D": {
-          "name": "Release",
-          "icon": "rocket",
-          "render": "function",
-          "viewId": "Release",
-          "id": "%7B%22oid%22%3A%2250f5ffa448856d140262082b5f75029f7a5d6c60%22%2C%22short%22%3A%2250f5ffa%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%202%20changes%20made%20by%20Matheus%20Lucas%5Cn%22%2C%22parent%22%3A%5B%22ed9f321e90e1da2439bfda04f1a680edfaff06a7%22%5D%2C%22tree%22%3A%22fc46deeb1a80e29bb40652f5f009891e75a3f609%22%2C%22author%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Matheus%20Lucas%22%2C%22email%22%3A%22matheus07lucas%40gmail.com%22%2C%22timestamp%22%3A1719092802%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
           "state": {
             "__signal": null
           }
