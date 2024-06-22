@@ -96,7 +96,7 @@
     "__resolveType": "site/sections/Footer.tsx"
   },
   "/.deco/blocks/pages-adoptPet-311927.json": {
-    "name": "adoptPet",
+    "name": "Home",
     "path": "/",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
